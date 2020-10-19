@@ -24,7 +24,7 @@ namespace calculadoramvc.Models
         public String LastName { get; set; }
 
         [Display(Name="Email")]
-        [Column("email")]
+        [Column("Email")]
         public String Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
