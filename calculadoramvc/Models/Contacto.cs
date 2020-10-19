@@ -28,15 +28,15 @@ namespace calculadoramvc.Models
         public String Email { get; set; }
 
         [DataType(DataType.PhoneNumber)]
-        [Display(Name="Telefono")]
-        [Column("phone")]
+        [Display(Name="Edad")]
+        [Column("age")]
         public int Phone { get; set; }
 
-        [Display(Name="Titulo")]
+        [Display(Name="Distrito")]
         [Column("subject")]
         public String Subject { get; set; }
 
-        [Display(Name="Mensaje")]
+        [Display(Name="Banco")]
         [Column("message")]
         public String Message { get; set; }
 
